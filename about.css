@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #000000; */
+    font-family: sans-serif;
+}
+html{
+    font-size: 62.5%; /* 1rem = 10px */ 
+    /* overflow-x: hidden; */
+}
+
+.navbar{
+   height: 8.4rem;
+   display: flex;
+   justify-content: center;
+
+}
+
+.navbar a{
+    color: #000000;
+}
+
+.nav-logo{
+   height: 6.7rem;
+   width: 19.4rem;
+   margin-top: 0.8rem;
+   margin-right: 2rem;
+   
+}
+
+.nav-links{
+   text-decoration: none;
+   margin-top: 3rem;
+   margin-left: 2rem;
+   font-size: 1.3rem;
+   font-weight: 600;
+   margin-right: 2rem;
+}
+
+
+
+.nav-links:hover{
+   color: #00fb00;
+   transition: var(--trans,color .4s ease 0s);
+}
+
+.nav-social-logos{
+   margin-top: 2.8rem;
+   margin-left: 2rem;
+   height: 2.5rem;
+   width: 2.5rem;
+   /* margin-right: rem; */
+}
+
+.nav-join-buttton{
+   margin-left: 4rem;
+   background-color: #00fb00;
+   height: 5rem;
+   border: none;
+   font-weight: 600;
+   margin-top: 1.3rem;
+   width: 15rem;
+   height: 5rem;
+   font-size: 1.5rem;
+   border-radius:4px;
+   text-decoration: none;
+}
+
+.nav-join-buttton:hover{
+   background-color: #000000;
+   color: #ffffff;
+}
+
+.nav-free-pass-button{
+   margin-left: 1rem;
+   /* margin-left: 5rem; */
+   background-color: #000000;
+   color: #ffffff;
+   height: 5rem;
+   border: none;
+   font-weight: 600;
+   margin-top: 1.3rem;
+   width: 15rem;
+   height: 5rem;
+   font-size: 1.3rem;
+   border-radius:4px;   
+}
+
+.nav-free-pass-button:hover{
+   background-color: #00fb00;
+   color: #000000;
+}
+
+.welcome {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 33vh;
+    justify-content: center;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 4.3rem;
+    color: rgb(255, 255, 255);
+}
+#sixth-section .section-6-content{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    margin-left: 6rem;
+}
+#sixth-section .section-6-content .heading-06{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    padding-top: 10rem;
+}
+#sixth-section .section-6-content .paragraph-6{
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#sixth-section .section-6-content .image-2-section img{
+    width: 42rem;
+}
+#sixth-section .section-6-content .btn-primary{
+     padding: 0.8rem 2.5rem;
+    margin-top:1.5rem ;
+    border: none;
+    border-radius: 2rem;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.img{
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.go{
+    margin-top: 2.5rem;
+
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.foot-panel1{
+    background-color: #00fb00;
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.foot-panel2{
+    
+    height: 300px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    
+}
+
+.foot-panel3{
+   
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    background-image: url(FitnessNGo_logo.webp);
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+}
+
+
+.foot-panel4{
+   
+    height: 80px;
+    font-size: 1.5rem;
+    text-align: center;
+  
+}
+
+.pages{
+
+    padding-top: 25px;
+}
+
+.copyright{
+ 
+    padding-top: 5px;
+
+}
+
+
+
